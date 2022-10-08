@@ -1,0 +1,67 @@
+1.	Concat Names
+Write a program that reads two names and a delimiter. It should print the names joined by the delimiter.
+
+John
+Smith
+->	John->Smith
+
+---------------------------------------------------------------------------------------------------------------------------------------
+2.	Convert Meters to Kilometers
+You will be given an integer that represents a distance in meters. 
+Write a program that converts meters to kilometers formatted to the second decimal point.
+
+Input	Output
+1852	1.85
+798	0.80
+---------------------------------------------------------------------------------------------------------------------------------------
+3.	Pounds to Dollars
+Write a program that converts British pounds (integer) to US dollars formatted to the 3rd decimal point.
+1 British Pound = 1.31 Dollars.
+
+Input	Output
+80	104.800
+39	51.090
+---------------------------------------------------------------------------------------------------------------------------------------
+4.	Centuries to Minutes
+Write a program that reads an integer number of centuries and converts it to years, days, hours, and minutes.
+
+Input	Output
+1	1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes
+5	5 centuries = 500 years = 182621 days = 4382904 hours = 262974240 minutes
+---------------------------------------------------------------------------------------------------------------------------------------
+5.	Special Numbers
+Write a program that reads an integer n. 
+Then, for all numbers in the range [1, n], prints the number and if it is special or not (True / False). 
+A number is special when the sum of its digits is 5, 7, or 11.
+
+Input:
+15
+	
+Output:
+1 -> False
+2 -> False
+3 -> False
+4 -> False
+5 -> True
+6 -> False
+7 -> True
+8 -> False
+9 -> False
+10 -> False
+11 -> False
+12 -> False
+13 -> False
+14 -> True
+15 -> False
+---------------------------------------------------------------------------------------------------------------------------------------
+6.	Next Happy Year
+You are saying goodbye to your best friend: "See you next happy year". 
+Happy Year is the year with only distinct digits, for example, 2018. 
+Write a program that receives an integer number and finds the next happy year.
+
+Input	Output
+8989	9012
+1001	1023
+---------------------------------------------------------------------------------------------------------------------------------------
+© SoftUni – about.softuni.bg.
+
